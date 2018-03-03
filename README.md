@@ -6,4 +6,4 @@ I recently wrote a Python/Netmiko script to download a new IOS image onto 70 Cis
 I foud this script which was a big help https://gist.github.com/ktbyers/8005564c5d3711a0e5476dbfd18d8acf
 
 ## How to Thread your Netmiko script
-main.py is a simple example of threading with comments on where to place your code
+main.py is a simple example of threading Netmiko with comments on where to place your code
