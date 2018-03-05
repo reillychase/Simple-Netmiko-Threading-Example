@@ -8,7 +8,7 @@ from netmiko import ConnectHandler
 USER = 'user'
 PASSWORD = 'pass'
 
-# Define router IPs, you could also
+# Define router IPs, you could also make a dictionary imported from a CSV file, or create a list from a text file of hostnames
 routers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
 
 def ssh_session(router, output_q):
